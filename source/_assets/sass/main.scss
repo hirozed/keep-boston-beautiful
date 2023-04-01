@@ -1,0 +1,165 @@
+/*
+font-family: 'Domine', serif;
+font-family: 'Fraunces', serif;
+font-family: 'Newsreader', serif;
+font-family: 'Petrona', serif;
+*/
+
+$font-family-serif: 'Domine', serif;
+
+$color-darkblue: #2b3990;
+$color-orange: #d04428; // Adjusted for AA accessibility
+
+$xs: 500px;
+$sm: 768px;
+// Todo: set these
+$md: 992px;
+$lg: 768px;
+$xl: 768px;
+
+@import "~normalize-scss/sass/normalize/import-now";
+@import "typography";
+@import "navigation";
+@import "banner";
+@import "homepage";
+@import "our-goals";
+@import "get-involved";
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bv-content-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 5vw;
+}
+
+.bv-content-text {
+    max-width: 75ch;
+    margin: 0 auto;
+
+    a {
+    	color: inherit;
+
+    	&:visited,
+    	&:hover,
+    	&:active {
+    		color: inherit;
+    	}
+    }
+
+    .bv-button {
+    	color: #fff;
+
+    	&:visited,
+    	&:hover,
+    	&:active {
+    		color: #fff;
+    	}
+    }
+}
+
+.bv-profiles {
+	h2 {
+		margin-top: 0;
+	}
+}
+
+.bv-content-profiles {
+	max-width: 85ch;
+}
+
+.bv-profile-image {
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto 1em;
+	max-width: 200px;
+
+	@media screen and (min-width: $sm) {
+		float: right;
+		margin-left: 1em;
+	}
+}
+
+footer {
+	align-items: center;
+	background: darken($color-darkblue, 28%);
+	color: #fff;
+	gap: 30px;
+	padding: 2vw 5vw;
+	text-align: center;
+
+	@media screen and (min-width: 1100px) {
+		display: flex;
+		text-align: left;
+	}
+
+	address {
+		font-style: normal;
+	}
+
+	p {
+		margin: 0;
+	}
+}
+
+$logo-horizontal: 650px;
+
+.footer-logo {
+	align-items: center;
+	gap: 15px;
+	margin: 0 auto 1em;
+	text-align: center;
+
+	@media screen and (min-width: $logo-horizontal) {
+		display: flex;
+		max-width: 565px;
+	}
+
+	@media screen and (min-width: 1085px) {
+		margin-left: 0;
+	}
+
+	img {
+		max-width: 200px;
+	}
+
+	p {
+		font-size: 0.9em;
+		min-width: 32ch;
+
+		@media screen and (min-width: $logo-horizontal) {
+			text-align: left;
+		}
+	}
+
+	a {
+		color: inherit;
+	}
+}
+
+.footer-credit {
+	color: #a7aabb;
+	font-size: 0.75em;
+	margin: 0 auto;
+	max-width: 330px;
+
+	@media screen and (min-width: 1085px) {
+		margin-right: 0;
+	}
+
+	svg {
+		fill: #e92f63;
+		max-width: 25px;
+		vertical-align: middle;
+	}
+
+	a {
+		color: inherit;
+	}
+}

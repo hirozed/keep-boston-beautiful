@@ -1,0 +1,30 @@
+// Get involved styles
+
+.bv-get-involved {
+    p {
+        max-width: 75ch;
+        text-align: center;
+    }
+}
+
+.bv-commit {
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    * {
+        width: 100%;
+    }
+
+    h3 {
+        margin: 0;
+    }
+}
+
+.bv-commitment {
+    font-size: 0.75em;
+    font-style: italic;
+    order: -1;
+}

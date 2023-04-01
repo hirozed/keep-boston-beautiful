@@ -1,0 +1,102 @@
+// Navigation styles
+
+$nav-breakpoint: $md + 100;
+
+.bv-nav {
+	align-items: center;
+	display: flex;
+	font-family: $font-family-serif;
+	justify-content: space-between;
+	padding: 1em;
+
+	@media screen and ( max-width: $nav-breakpoint - 1 ) {
+		flex-wrap: wrap;
+	}
+}
+
+#bv-logo {
+	display: block;
+	width: 200px;
+}
+
+.bv-nav-list {
+	align-items: center;
+	list-style-type: none;
+
+	@media screen and ( max-width: $nav-breakpoint - 1 ) {
+		width: 100%;
+	}
+
+	&.has-js {
+		display: none;
+
+		@media screen and ( min-width: $nav-breakpoint ) {
+			display: flex;
+		}
+	}
+
+	&.bv-nav-open {
+		display: block;
+
+		@media screen and ( min-width: $nav-breakpoint ) {
+			display: flex;
+		}
+	}
+
+	@media screen and ( min-width: $nav-breakpoint ) {
+		font-size: 0.85em;
+	}
+
+	@media screen and ( min-width: $nav-breakpoint + 150 ) {
+		font-size: 1em;
+	}
+}
+
+.bv-nav-link {
+	color: #000;
+	display: block;
+	font-weight: 700;
+	padding: 0.25em 0.5em;
+	text-decoration: none;
+}
+
+.bv-nav-button {
+	background: $color-darkblue;
+	color: #fff;
+	padding: 0.5em 1em;
+	margin-top: 0.5em;
+
+	@media screen and (min-width: $nav-breakpoint) {
+		border-radius: 3em 0 0 3em;
+		margin-left: 1em;
+		margin-top: 0;
+	}
+}
+
+.bv-nav-callout {
+	& + & .bv-nav-button {
+		@media screen and (min-width: $nav-breakpoint) {
+			border-radius: 0;
+			margin-left: 1px;
+		}
+	}
+}
+
+.bv-nav-callout:last-child {
+	.bv-nav-button {
+		background: $color-orange;
+
+		@media screen and (min-width: $nav-breakpoint) {
+			border-radius: 0 3em 3em 0;
+		}
+	}
+}
+
+.bv-nav-toggle {
+	font-family: $font-family-serif;
+	display: block;
+
+	@media screen and ( min-width: $nav-breakpoint ) {
+		display: none;
+	}
+}
