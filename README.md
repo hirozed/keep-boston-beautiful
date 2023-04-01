@@ -1,6 +1,7 @@
-# boston-volunteer
-New Site for Boston Volunteers
-https://negc-bvolunteer.netlify.app/
+# Keep Boston Beautiful
+
+New Site for Keep Boston Beautiful
+https://keep-boston-beautiful.netlify.app/
 
 ## How to edit video for this site
 
