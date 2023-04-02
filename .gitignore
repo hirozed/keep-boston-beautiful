@@ -12,3 +12,7 @@ npm-debug.log
 # /source/assets/build/
 *.code-workspace
 .DS_Store
+*.iml
+
+# Local Netlify folder
+.netlify

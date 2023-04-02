@@ -1,63 +1,63 @@
 body {
-	font-family: $font-family-serif;
-	font-size: 18px;
-	line-height: 1.5;
+  font-family: $font-family-serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 $font-sizes: (
-	"1": 2.488em, 
-	"2": 2.074em, 
-	"3": 1.528em,
-	"4": 1.44em,
-	"5": 1.2em,
-	"6": 1rem,
+        "1": 2.488em,
+        "2": 2.074em,
+        "3": 1.528em,
+        "4": 1.44em,
+        "5": 1.2em,
+        "6": 1rem,
 );
 
 @each $key, $size in $font-sizes {
-	%font-size-#{$key} {
-		font-size: $size*1.25;
-		line-height: 1.3;
-	}
+  %font-size-#{$key} {
+    font-size: $size*1.25;
+    line-height: 1.3;
+  }
 
-	h#{$key} {
-		@extend %font-size-#{$key};
-	}
+  h#{$key} {
+    @extend %font-size-#{$key};
+  }
 }
 
 h2 {
-	&::after {
-		content: '';
-		display: block;
-		width: 50px;
-		height: 5px;
-		background-color: $color-orange;
-		margin-top: 0.5em;
-	}
+  &::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: $color-green;
+    margin-top: 0.5em;
+  }
 
-	&.bv-center::after,
-	.bv-center &::after {
-		margin-left: auto;
-		margin-right: auto;		
-	}
+  &.bv-center::after,
+  .bv-center &::after {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .bv-button {
-	background: $color-orange;
-	border: none;
-	border-radius: 20px;
-	color: #fff;
-	padding: 0.5em 1em;
-	text-decoration: none;
+  background: $color-green;
+  color: $color-gray;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  text-decoration: none;
 
-	&:hover {
-		cursor: pointer;
-	}
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 p {
-	margin: 1.65em auto;
+  margin: 1.65em auto;
 }
 
 .bv-center {
-	text-align: center;
+  text-align: center;
 }

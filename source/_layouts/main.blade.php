@@ -15,7 +15,7 @@
 		<header>
 			<nav class="bv-nav" role="navigation">
 				<a href="/" id="bv-logo">
-					<img src="/assets/images/BV-new-01.svg" alt="Boston Volunteer">
+					<img src="/assets/images/kbb-logo.svg" alt="Boston Volunteer">
 				</a>
 				<ul id="js-bv-nav" class="bv-nav-list">
 					<li class="bv-nav-item"><a class="bv-nav-link" href="/about">About Us</a></li>
@@ -43,7 +43,7 @@
 		</main>
 		<footer>
 			<address class="footer-logo">
-				<img src="/assets/images/BV-new-01.svg" alt="Boston Volunteer">
+				<img src="/assets/images/kbb-logo.svg" alt="Boston Volunteer">
 				<div class="footer-tagline">
 					<p><em>Big enough to deliver, small enough to care.</em></p>
 					<p><a href="mailto:josh@bostonvolunteer.org">Contact Us</a></p>
