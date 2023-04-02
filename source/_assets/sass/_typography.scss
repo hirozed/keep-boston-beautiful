@@ -34,14 +34,14 @@ h2 {
     margin-top: 0.5em;
   }
 
-  &.bv-center::after,
-  .bv-center &::after {
+  &.kbb-center::after,
+  .kbb-center &::after {
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-.bv-button {
+.kbb-button {
   background: $color-green;
   color: $color-gray;
   border: none;
@@ -58,6 +58,6 @@ p {
   margin: 1.65em auto;
 }
 
-.bv-center {
+.kbb-center {
   text-align: center;
 }

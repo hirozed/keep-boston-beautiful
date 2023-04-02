@@ -5,7 +5,7 @@ section {
   padding: clamp(1rem, 5vw, 4rem);
 }
 
-.bv-quotes {
+.kbb-quotes {
   background-color: mix($color-darkblue, rgba(0, 0, 0, 0.854), 33%);
   color: #fff;
   padding: 3em;
@@ -15,7 +15,7 @@ section {
   }
 }
 
-.bv-impact {
+.kbb-impact {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
@@ -23,14 +23,14 @@ section {
   masonry-auto-flow: next;
 }
 
-.bv-impact-large {
+.kbb-impact-large {
   background-color: desaturate($color-green, 5%);
   color: $color-gray;
   font-size: 1.25em;
   padding: 1em 2em;
 }
 
-.bv-impact-results {
+.kbb-impact-results {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
@@ -45,7 +45,7 @@ section {
   }
 }
 
-.bv-impact-fact {
+.kbb-impact-fact {
   line-height: 1.2;
   padding: 30px;
 
@@ -56,18 +56,18 @@ section {
   }
 }
 
-.bv-callouts {
+.kbb-callouts {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
 }
 
-.bv-callouts-title {
+.kbb-callouts-title {
   grid-column: 1/-1;
 }
 
-.bv-commit,
-.bv-callout {
+.kbb-commit,
+.kbb-callout {
   text-align: center;
   padding: 1em;
   display: flex;
@@ -75,7 +75,7 @@ section {
   align-content: flex-start;
   flex-direction: column;
 
-  .bv-button {
+  .kbb-button {
     margin-top: auto;
   }
 }

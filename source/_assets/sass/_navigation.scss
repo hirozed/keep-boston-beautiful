@@ -2,7 +2,7 @@
 
 $nav-breakpoint: $md + 100;
 
-.bv-nav {
+.kbb-nav {
   align-items: center;
   display: flex;
   font-family: $font-family-serif;
@@ -14,12 +14,12 @@ $nav-breakpoint: $md + 100;
   }
 }
 
-#bv-logo {
+#kbb-logo {
   display: block;
   width: 200px;
 }
 
-.bv-nav-list {
+.kbb-nav-list {
   align-items: center;
   list-style-type: none;
 
@@ -35,7 +35,7 @@ $nav-breakpoint: $md + 100;
     }
   }
 
-  &.bv-nav-open {
+  &.kbb-nav-open {
     display: block;
 
     @media screen and (min-width: $nav-breakpoint) {
@@ -52,7 +52,7 @@ $nav-breakpoint: $md + 100;
   }
 }
 
-.bv-nav-link {
+.kbb-nav-link {
   color: #000;
   display: block;
   font-weight: 700;
@@ -60,7 +60,7 @@ $nav-breakpoint: $md + 100;
   text-decoration: none;
 }
 
-.bv-nav-button {
+.kbb-nav-button {
   background: $color-darkblue;
   color: #fff;
   padding: 0.5em 1em;
@@ -73,8 +73,8 @@ $nav-breakpoint: $md + 100;
   }
 }
 
-.bv-nav-callout {
-  & + & .bv-nav-button {
+.kbb-nav-callout {
+  & + & .kbb-nav-button {
     @media screen and (min-width: $nav-breakpoint) {
       border-radius: 0;
       margin-left: 1px;
@@ -82,8 +82,8 @@ $nav-breakpoint: $md + 100;
   }
 }
 
-.bv-nav-callout:last-child {
-  .bv-nav-button {
+.kbb-nav-callout:last-child {
+  .kbb-nav-button {
     background: $color-green;
     color: $color-gray;
 
@@ -93,7 +93,7 @@ $nav-breakpoint: $md + 100;
   }
 }
 
-.bv-nav-toggle {
+.kbb-nav-toggle {
   font-family: $font-family-serif;
   display: block;
 

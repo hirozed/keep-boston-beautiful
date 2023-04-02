@@ -465,12 +465,12 @@ h2::after {
   background-color: #88bb71;
   margin-top: 0.5em;
 }
-h2.bv-center::after, .bv-center h2::after {
+h2.kbb-center::after, .kbb-center h2::after {
   margin-left: auto;
   margin-right: auto;
 }
 
-.bv-button {
+.kbb-button {
   background: #88bb71;
   color: #414141;
   border: none;
@@ -478,7 +478,7 @@ h2.bv-center::after, .bv-center h2::after {
   padding: 0.5em 1em;
   text-decoration: none;
 }
-.bv-button:hover {
+.kbb-button:hover {
   cursor: pointer;
 }
 
@@ -486,11 +486,11 @@ p {
   margin: 1.65em auto;
 }
 
-.bv-center {
+.kbb-center {
   text-align: center;
 }
 
-.bv-nav {
+.kbb-nav {
   align-items: center;
   display: flex;
   font-family: "Domine", serif;
@@ -498,53 +498,53 @@ p {
   padding: 1em;
 }
 @media screen and (max-width: 1091px) {
-  .bv-nav {
+  .kbb-nav {
     flex-wrap: wrap;
   }
 }
 
-#bv-logo {
+#kbb-logo {
   display: block;
   width: 200px;
 }
 
-.bv-nav-list {
+.kbb-nav-list {
   align-items: center;
   list-style-type: none;
 }
 @media screen and (max-width: 1091px) {
-  .bv-nav-list {
+  .kbb-nav-list {
     width: 100%;
   }
 }
-.bv-nav-list.has-js {
+.kbb-nav-list.has-js {
   display: none;
 }
 @media screen and (min-width: 1092px) {
-  .bv-nav-list.has-js {
+  .kbb-nav-list.has-js {
     display: flex;
   }
 }
-.bv-nav-list.bv-nav-open {
+.kbb-nav-list.kbb-nav-open {
   display: block;
 }
 @media screen and (min-width: 1092px) {
-  .bv-nav-list.bv-nav-open {
+  .kbb-nav-list.kbb-nav-open {
     display: flex;
   }
 }
 @media screen and (min-width: 1092px) {
-  .bv-nav-list {
+  .kbb-nav-list {
     font-size: 0.85em;
   }
 }
 @media screen and (min-width: 1242px) {
-  .bv-nav-list {
+  .kbb-nav-list {
     font-size: 1em;
   }
 }
 
-.bv-nav-link {
+.kbb-nav-link {
   color: #000;
   display: block;
   font-weight: 700;
@@ -552,14 +552,14 @@ p {
   text-decoration: none;
 }
 
-.bv-nav-button {
+.kbb-nav-button {
   background: #214272;
   color: #fff;
   padding: 0.5em 1em;
   margin-top: 0.5em;
 }
 @media screen and (min-width: 1092px) {
-  .bv-nav-button {
+  .kbb-nav-button {
     border-radius: 3em 0 0 3em;
     margin-left: 1em;
     margin-top: 0;
@@ -567,33 +567,33 @@ p {
 }
 
 @media screen and (min-width: 1092px) {
-  .bv-nav-callout + .bv-nav-callout .bv-nav-button {
+  .kbb-nav-callout + .kbb-nav-callout .kbb-nav-button {
     border-radius: 0;
     margin-left: 1px;
   }
 }
 
-.bv-nav-callout:last-child .bv-nav-button {
+.kbb-nav-callout:last-child .kbb-nav-button {
   background: #88bb71;
   color: #414141;
 }
 @media screen and (min-width: 1092px) {
-  .bv-nav-callout:last-child .bv-nav-button {
+  .kbb-nav-callout:last-child .kbb-nav-button {
     border-radius: 0 3em 3em 0;
   }
 }
 
-.bv-nav-toggle {
+.kbb-nav-toggle {
   font-family: "Domine", serif;
   display: block;
 }
 @media screen and (min-width: 1092px) {
-  .bv-nav-toggle {
+  .kbb-nav-toggle {
     display: none;
   }
 }
 
-.bv-hero {
+.kbb-hero {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -604,19 +604,19 @@ p {
   width: 100%;
 }
 
-.bv-hero-video {
+.kbb-hero-video {
   height: 100%;
   position: absolute;
   width: 100%;
 }
-.bv-hero-video video {
+.kbb-hero-video video {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
 }
 
-.bv-hero-content {
+.kbb-hero-content {
   background: rgba(33, 66, 114, 0.75);
   color: #fff;
   max-width: 100ch;
@@ -625,21 +625,21 @@ p {
   text-align: center;
 }
 @media screen and (max-width: 992px) {
-  .bv-hero-content {
+  .kbb-hero-content {
     font-size: 0.5em;
   }
 }
-.bv-hero-content p {
+.kbb-hero-content p {
   margin-bottom: 1em;
   font-size: 1.5em;
 }
 @media screen and (max-width: 992px) {
-  .bv-hero-content p {
+  .kbb-hero-content p {
     font-size: 2em;
   }
 }
 
-.bv-hero-button {
+.kbb-hero-button {
   display: inline-block;
   font-size: 1.25rem;
 }
@@ -649,16 +649,16 @@ section {
   padding: clamp(1rem, 5vw, 4rem);
 }
 
-.bv-quotes {
+.kbb-quotes {
   background-color: rgba(13, 26, 45, 0.90218);
   color: #fff;
   padding: 3em;
 }
-.bv-quotes blockquote {
+.kbb-quotes blockquote {
   font-size: 1.25em;
 }
 
-.bv-impact {
+.kbb-impact {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
@@ -666,20 +666,20 @@ section {
   masonry-auto-flow: next;
 }
 
-.bv-impact-large {
+.kbb-impact-large {
   background-color: #8ab676;
   color: #414141;
   font-size: 1.25em;
   padding: 1em 2em;
 }
 
-.bv-impact-results {
+.kbb-impact-results {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   font-weight: 700;
 }
-.bv-impact-results em {
+.kbb-impact-results em {
   color: #d04428;
   display: block;
   font-size: 5em;
@@ -687,28 +687,28 @@ section {
   text-indent: -0.04em;
 }
 
-.bv-impact-fact {
+.kbb-impact-fact {
   line-height: 1.2;
   padding: 30px;
 }
 @media screen and (min-width: 1600px) {
-  .bv-impact-fact.span-2 {
+  .kbb-impact-fact.span-2 {
     grid-column: span 2;
   }
 }
 
-.bv-callouts {
+.kbb-callouts {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.bv-callouts-title {
+.kbb-callouts-title {
   grid-column: 1/-1;
 }
 
-.bv-commit,
-.bv-callout {
+.kbb-commit,
+.kbb-callout {
   text-align: center;
   padding: 1em;
   display: flex;
@@ -716,16 +716,16 @@ section {
   align-content: flex-start;
   flex-direction: column;
 }
-.bv-commit .bv-button,
-.bv-callout .bv-button {
+.kbb-commit .kbb-button,
+.kbb-callout .kbb-button {
   margin-top: auto;
 }
 
-.bv-wide {
+.kbb-wide {
   margin: 0 -10vw;
 }
 
-.bv-goal {
+.kbb-goal {
   align-items: center;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.121);
   display: flex;
@@ -733,12 +733,12 @@ section {
   margin-bottom: 5vw;
 }
 
-.bv-goal-intro {
+.kbb-goal-intro {
   padding: 3em;
   width: 60%;
 }
 
-.bv-action {
+.kbb-action {
   align-self: normal;
   background-color: rgba(13, 26, 45, 0.90218);
   color: #fff;
@@ -747,26 +747,26 @@ section {
   width: 40%;
 }
 
-.bv-get-involved p {
+.kbb-get-involved p {
   max-width: 75ch;
   text-align: center;
 }
 
-.bv-commit {
+.kbb-commit {
   text-align: center;
   padding: 1em;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
 }
-.bv-commit * {
+.kbb-commit * {
   width: 100%;
 }
-.bv-commit h3 {
+.kbb-commit h3 {
   margin: 0;
 }
 
-.bv-commitment {
+.kbb-commitment {
   font-size: 0.75em;
   font-style: italic;
   order: -1;
@@ -780,45 +780,45 @@ img {
   max-width: 100%;
 }
 
-.bv-content-container {
+.kbb-content-container {
   max-width: 1500px;
   margin: 0 auto;
   padding: 5vw;
 }
 
-.bv-content-text {
+.kbb-content-text {
   max-width: 75ch;
   margin: 0 auto;
 }
-.bv-content-text a {
+.kbb-content-text a {
   color: inherit;
 }
-.bv-content-text a:visited, .bv-content-text a:hover, .bv-content-text a:active {
+.kbb-content-text a:visited, .kbb-content-text a:hover, .kbb-content-text a:active {
   color: inherit;
 }
-.bv-content-text .bv-button {
+.kbb-content-text .kbb-button {
   color: #fff;
 }
-.bv-content-text .bv-button:visited, .bv-content-text .bv-button:hover, .bv-content-text .bv-button:active {
+.kbb-content-text .kbb-button:visited, .kbb-content-text .kbb-button:hover, .kbb-content-text .kbb-button:active {
   color: #fff;
 }
 
-.bv-profiles h2 {
+.kbb-profiles h2 {
   margin-top: 0;
 }
 
-.bv-content-profiles {
+.kbb-content-profiles {
   max-width: 85ch;
 }
 
-.bv-profile-image {
+.kbb-profile-image {
   border-radius: 50%;
   display: block;
   margin: 0 auto 1em;
   max-width: 200px;
 }
 @media screen and (min-width: 768px) {
-  .bv-profile-image {
+  .kbb-profile-image {
     float: right;
     margin-left: 1em;
   }

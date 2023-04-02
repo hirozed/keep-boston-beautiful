@@ -1,27 +1,27 @@
 // Our goals styles
 
-.bv-wide {
-    margin: 0 -10vw;
+.kbb-wide {
+  margin: 0 -10vw;
 }
 
-.bv-goal {
-    align-items: center;
-	box-shadow: 0 0 30px rgba(0, 0, 0, 0.121);
-    display: flex;
-    padding: 0;
-    margin-bottom: 5vw;
+.kbb-goal {
+  align-items: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.121);
+  display: flex;
+  padding: 0;
+  margin-bottom: 5vw;
 }
 
-.bv-goal-intro {
-    padding: 3em;
-    width: 60%;
+.kbb-goal-intro {
+  padding: 3em;
+  width: 60%;
 }
 
-.bv-action {
-    align-self: normal;
-    background-color: mix($color-darkblue, rgba(0, 0, 0, 0.854), 33%);
-    color: #fff;
-    margin-left: auto;
-    padding: 3em 3em 4em;
-    width: 40%;
+.kbb-action {
+  align-self: normal;
+  background-color: mix($color-darkblue, rgba(0, 0, 0, 0.854), 33%);
+  color: #fff;
+  margin-left: auto;
+  padding: 3em 3em 4em;
+  width: 40%;
 }

@@ -1,51 +1,51 @@
 // Banner styles
 
-.bv-hero {
-	align-items: center;
-	display: flex;
-	flex-wrap: wrap;
-	min-height: 60vh;
-	justify-content: center;
-	overflow: hidden;
-	position: relative;
-	width: 100%;
+.kbb-hero {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 60vh;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
 
-.bv-hero-video {
-	height: 100%;
-	position: absolute;
-	width: 100%;
-	
-	video {
-		height: 100%;
-		object-fit: cover;
-		width: 100%;
-	}
+.kbb-hero-video {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+
+  video {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
 }
 
-.bv-hero-content {
-	background: transparentize($color-darkblue, .25);
-	color: #fff;
-	max-width: 100ch;
-	padding: 1em;
-	position: relative;
-	text-align: center;
+.kbb-hero-content {
+  background: transparentize($color-darkblue, .25);
+  color: #fff;
+  max-width: 100ch;
+  padding: 1em;
+  position: relative;
+  text-align: center;
 
-	@media screen and (max-width: $md) {
-		font-size: 0.5em;
-	}
+  @media screen and (max-width: $md) {
+    font-size: 0.5em;
+  }
 
-	p {
-		margin-bottom: 1em;
-		font-size: 1.5em;
+  p {
+    margin-bottom: 1em;
+    font-size: 1.5em;
 
-		@media screen and (max-width: $md) {
-			font-size: 2em;
-		}
-	}
+    @media screen and (max-width: $md) {
+      font-size: 2em;
+    }
+  }
 }
 
-.bv-hero-button {
-	display: inline-block;
-	font-size: 1.25rem;
+.kbb-hero-button {
+  display: inline-block;
+  font-size: 1.25rem;
 }
