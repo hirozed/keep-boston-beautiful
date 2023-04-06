@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+display_url: https://keepbostonbeautiful.org
+
+media_folder: "source/assets/images/uploads"
+public_folder: "assets/images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "pages"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
+      - label: "Cover media"
+        name: "cover_media"
+        widget: "image"
+        required: false
+        media_library:
+          config:
+            multiple: false
+      - { label: "Body", name: "body", widget: "markdown" }
