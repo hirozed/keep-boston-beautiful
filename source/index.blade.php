@@ -30,4 +30,23 @@
 			</p>
 		</aside>
 	</section>
+	<section class="kbb-center">
+		<aside>
+			<h3>Upcoming volunteer events for from Spring through Autumn 2023:</h3>
+
+			<p>
+				Where: Ringer Park meet by the playgroup
+				<br>
+				When: Second Saturday of every month from 11am-12pm
+				<br>
+				Supplies will be provided.
+				<br>
+				Bring all your friends.
+				<br>
+				We anticipate volunteering with you!
+			</p>
+			<p>What questions do you have for us: <a href="mailto:grace@keepbostonbeautiful.com">grace@keepbostonbeautiful.com</a>
+			</p>
+		</aside>
+	</section>
 @endsection

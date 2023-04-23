@@ -3,12 +3,7 @@
 @section('title', 'Our Story')
 
 @section('hero-media')
-	<video autoplay loop muted playsinline>
-		<source src="/assets/video/grass-in-the-wind.mp4"
-		        type="video/mp4">
-		<!-- TODO: a still image here as a fallback -->
-		Sorry, your browser doesn't support embedded videos.
-	</video>
+	<img src="/assets/images/dorchester-park.jpg" type="image/jpeg" alt="Dorchester Park"/>
 @endsection
 
 @section('hero-content')
@@ -58,6 +53,12 @@
 			<h2>Grace</h2>
 			<p>Bio to come.</p>
 			{{--<p>Send Grace a message at <a href="mailto:grace@keepbostonbeautiful.org">grace@keepbostonbeautiful.org</a></p>--}}
+		</section>
+		<section class="kbb-content-text">
+			<p>Are you interested in learning more about how you could join our leadership team.</p>
+			<p>Learn more: <a href="mailto:grace@keepbostonbeautiful.com">grace@keepbostonbeautiful.com</a></p>
+
+
 		</section>
 	</section>
 @endsection

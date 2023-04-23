@@ -3,12 +3,7 @@
 @section('title', 'Get Involved')
 
 @section('hero-media')
-	<video autoplay loop muted playsinline>
-		<source src="/assets/video/potting-plants.mp4"
-		        type="video/mp4">
-		<!-- TODO: a still image here as a fallback -->
-		Sorry, your browser doesn't support embedded videos.
-	</video>
+	<img src="/assets/images/newland-street-park.jpg" type="image/jpeg" alt="Newland Street Park"/>
 @endsection
 
 @section('hero-content')

@@ -22,8 +22,16 @@
 			<li class="kbb-nav-item">
 				<a class="kbb-nav-link" href="/about">Who We Are</a>
 			</li>
+			<li class="kbb-nav-item">
+				<a class="kbb-nav-link" href="https://facebook.com/keepbrooklinebeautiful">
+					<i class="gg-facebook"></i>
+				</a>
+			</li>
 			<li class="kbb-nav-item kbb-nav-callout">
-				<a class="kbb-button" href="/get-involved">Get Involved</a>
+				<a class="kbb-nav-link kbb-button kbb-nav-button" href="/get-involved">Get Involved</a>
+			</li>
+			<li class="kbb-nav-item kbb-nav-callout">
+				<a class="kbb-nav-link kbb-button kbb-nav-button" href="/donate">Donate</a>
 			</li>
 		</ul>
 	</nav>
