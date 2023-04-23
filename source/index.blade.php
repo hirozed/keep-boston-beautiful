@@ -29,10 +29,8 @@
 				<a href="mailto:josh@keepbostonbeautiful.org" class="kbb-button">Contact us to learn more</a>
 			</p>
 		</aside>
-	</section>
-	<section class="kbb-center">
 		<aside>
-			<h3>Upcoming volunteer events for from Spring through Autumn 2023:</h3>
+			<h3>Upcoming volunteer events for Spring through Autumn 2023:</h3>
 
 			<p>
 				Where: Ringer Park meet by the playgroup
